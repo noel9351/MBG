@@ -1,8 +1,35 @@
 # MBG — Projektplan
 
 ## Was ist MBG?
-Kleine Firma die Websites und Online-Auftritte für andere Unternehmen erstellt und verwaltet.
-Die eigene Firmen-Website präsentiert die Leistungen, weckt Vertrauen und generiert Anfragen.
+**Mühletaler · Bley · Gafner** — eine Firma von drei Partnern, die Websites,
+Branding und Online-Auftritte für andere Unternehmen erstellt und verwaltet.
+Tagline: **WEB · BRAND · ONLINE**
+
+---
+
+## Markenidentität
+
+| Element      | Details                                              |
+|--------------|------------------------------------------------------|
+| Firmenname   | MBG — Mühletaler, Bley, Gafner                       |
+| Tagline      | WEB · BRAND · ONLINE                                 |
+| Logo         | Drei überlappende Quadrate (M, B, G) in Blau-Tönen   |
+| Logo-Datei   | `assets/images/mbg-logo.svg`                         |
+
+### Farben aus Logo
+| Variable      | Hex       | Verwendung                  |
+|---------------|-----------|-----------------------------|
+| `--navy`      | `#0A2540` | Primär — dunkelblau          |
+| `--blue-mid`  | `#1E40AF` | Sekundär — mittelblau        |
+| `--blue-light`| `#3B82F6` | Akzent — hellblau            |
+| `--slate`     | `#475569` | Texte, Untertitel            |
+
+### Zusätzliche kreative Akzente (Bunt & Kreativ)
+| Variable      | Hex       | Verwendung                  |
+|---------------|-----------|-----------------------------|
+| `--orange`    | `#F97316` | Highlight / CTA-Button       |
+| `--teal`      | `#0D9488` | Sektion-Akzent               |
+| `--bg`        | `#F8FAFF` | Hintergrund (helles Blau-Weiss) |
 
 ---
 
@@ -10,9 +37,9 @@ Die eigene Firmen-Website präsentiert die Leistungen, weckt Vertrauen und gener
 
 | Kategorie   | Entscheidung                                              |
 |-------------|-----------------------------------------------------------|
-| Typ         | Firmen-Website (Agentur / Web-Dienstleistungen)           |
+| Typ         | Firmen-Website (Web-Agentur)                              |
 | Ziel        | Leistungen präsentieren, Vertrauen aufbauen, Anfragen generieren |
-| Design      | Bunt & Kreativ — lebendig, auffällig, modern              |
+| Design      | Bunt & Kreativ — Brand-Blautöne + warme Akzente           |
 | Skill       | creative-design/frontend-design                           |
 | Framework   | Kein Framework — reines HTML / CSS / JS                   |
 | Sprache     | Deutsch                                                   |
@@ -20,14 +47,14 @@ Die eigene Firmen-Website präsentiert die Leistungen, weckt Vertrauen und gener
 
 ---
 
-## Seiten (geplant)
+## Seiten
 
-| Seite          | Inhalt                                                      |
-|----------------|-------------------------------------------------------------|
-| `index.html`   | Hero, Leistungsübersicht, CTA                               |
-| `leistungen.html` | Detaillierte Dienstleistungen (Website-Erstellung, Pflege, etc.) |
-| `referenzen.html` | Beispielprojekte / Kundenprojekte                        |
-| `kontakt.html` | Kontaktformular oder Kontaktinfos                           |
+| Seite              | Inhalt                                                    |
+|--------------------|-----------------------------------------------------------|
+| `index.html`       | Hero mit Logo, Leistungsübersicht, CTA                    |
+| `leistungen.html`  | Website-Erstellung, Branding, Online-Pflege               |
+| `referenzen.html`  | Kundenprojekte (Platzhalter-Karten)                       |
+| `kontakt.html`     | Kontaktinfos der drei Partner                             |
 
 ---
 
@@ -45,6 +72,7 @@ MBG/
 │   └── main.js
 ├── assets/
 │   └── images/
+│       └── mbg-logo.svg
 ├── MBG_PLAN.md
 └── README.md
 ```
@@ -53,7 +81,8 @@ MBG/
 
 ## Nächste Schritte
 
-- [ ] Design-Konzept & Farbpalette festlegen
+- [x] Ordner & GitHub Repo angelegt
+- [x] Logo gespeichert
 - [ ] `css/style.css` erstellen
 - [ ] `index.html` erstellen
 - [ ] Weitere Seiten erstellen
@@ -61,4 +90,4 @@ MBG/
 
 ---
 
-*Erstellt: 2026-05-09 | Status: In Planung*
+*Erstellt: 2026-05-09 | Status: In Umsetzung*
